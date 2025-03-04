@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>Patterns.Adapter.Player_withAdapter</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Fabrics\AbstractFabricImage\" />
+    <Folder Include="Fabrics\FabricMethodImage\" />
+  </ItemGroup>
+
+</Project>
